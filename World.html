@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE DAILY NEWS</title>
+    <link rel="stylesheet" href="world.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="website-header">
+            <img src="images/logo.png" alt="">
+            <h1>THE DAILY NEWS</h1></div>
+            <div class="navigationbar">
+            <nav class="navbar">
+                <div class="container-fluid">
+                  <ul class="nav-left">
+                    <li class="active"><a href="Home.html">Home</a></li>
+                    <li><a href="World.html">World</a></li>
+                    <li><a href="Sports.html">Sports</a></li>
+                    <li><a href="Entertainment.html">Entertainment</a></li>
+
+
+                    
+                    <li><a href="#">Business</a></li>
+                   
+                    <li><a href="#">Tech</a></li>
+                    
+                    <li><a href="#">Lifestyle</a></li>
+                  </ul>
+                  <ul class="nav-right">
+                    <li><a href="Signupform.html"><span class="Signup"></span> Sign Up</a></li>
+                    <li><a href="Login.html"><span class="login"></span> Login</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <div class="breaking-news-section">
+                  <span id=btext>Breaking News</span>
+                  <marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+                    <a href="" class="breaking-news">
+                        <p class= "bntime">10 june,2021</p>
+                        Hundreds of protestors gather in Dublin demanding expansion of a repair scheme for crumbling houses
+                    </a>
+                    <a href="" class="breaking-news">
+                      <p class= "bntime">10 june,2021</p>
+                      Refugee in the Netherlands goes on trial for war crimes over killing carried out during Syrian conflict
+                  </a>
+                  <a href="" class="breaking-news">
+                      <p class= "bntime">10 june,2021</p>
+                      Irish scientists identify how and why some Covid patients develop life-threatening blood clots
+                  </a>
+                </marquee>
+              </div>
+            </div>
+    </header>
+    <main>
+        <article id=popular-news>
+            <div id="featured">
+                <h2>FEATURED</h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="World/featured1.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>US air strikes in Iraq and Syria target Iran-backed militia.</h5>
+                            <p>28 june 2021</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="World/Featured2.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Outbreaks emerge across Australia in 'new phase' of pandemic</h5> 
+                            <p>28 June,2021</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="World/featured3.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>France elections: Far-right National Rally fails in key regional battles</h5>
+                            <p>28 June, 2021</p>
+                          </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only"></span>
+                    </a>
+                  </div>
+            </div>
+            <div id="latest">
+                <h2>LATEST</h2>
+                <section class="news">
+                    <div class="news-container">
+                        <img src="World/topicks1.jpg" alt="">
+                        <p class="popular-news-text">Covid-19: A coronavirus-linked threat to children in India.</p>
+                    </div>
+                </section>
+                <section class="news">
+                    <div class="news-container">
+                        <img src="World/latest2.jpg" alt="">
+                        <p class="popular-news-text">US and Canada heatwave: Pacific Northwest sees record temperatures.</p>
+                    </div> </section>   
+            </div> 
+            <div id="ourpicks">
+                <h2>OUR PICKS</h2>
+                <section class="news">
+                    <div class="news-container">
+                        <img src="World/ourpicks1.jpg" alt="">
+                        <p class="popular-news-text">Florida building collapse: More than 150 missing, nine dead.</p>
+                    </div>
+                </section>
+                <section class="news">
+                    <div class="news-container">
+                        <img src="World/ourpicks2.jpg" alt="">
+                        <p class="popular-news-text">Johnson & Johnson to pay $230m to settle opioid claim</p>
+                    </div>
+                </section>   
+            </div>
+        </article>
+        <section class="more-news">
+            <div class="news-section">
+                <article class="world">
+                    <h2>Africa
+                    </h2>
+                    <img src="World/world.jpg" alt="">
+                    <h3>Somalia's Puntland region executes 21 al-Shabab fighters</h3>
+                    <p>Twenty-one men have been executed in Somalia's semi-autonomous state of Puntland after they were convicted of being members of the Islamist militant group al-Shabab.</p>
+                </article>
+                <article class="sport">
+                    <h2>SPORTS</h2>
+                    <img src="World/Middle East.jpg" alt="">
+                    <h3>Activist critical of Palestinian Authority dies after arrest</h3>
+                    <p>A Palestinian activist who was a well-known critic of the Palestinian Authority's leadership has died after being arrested by its security forces.
+
+                        Palestinian officers detained Nizar Banat at his home near the occupied West Bank city of Hebron overnight.
+                        
+                        Mr Banat's family have alleged that he was badly beaten during the raid.</p>
+
+
+                </article>
+            </div>
+            <aside>
+                <h4>RECENT</h4>
+                <div class="recent-news">
+                    <img src="images/article1.jpg">
+                    <p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+                </div>
+                <div class="recent-news">
+                    <img src="images/aside2.jpg">
+                    <p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+                </div>
+                <div class="recent-news">
+                    <img src="images/aside3.jpg">
+                    <p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+                </div>
+                <div class="recent-news">
+                    <img src="images/aside4.jpg">
+                    <p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+                </div>
+                <div class="recent-news">
+                    <img src="images/aside5.jpg">
+                    <p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+                </div>
+            
+
+            </aside>
+        </section>
+        <footer>
+            <div class="social-links">
+                <section class="about">
+                    <h2>About</h2>
+					<p>THE DAILY NEWS is the largest local-to-national digital media organization in the country.THE DAILY NEWS is our national flagship brand, sits at the center of the NETWORK, surrounded by hundreds of local media properties reporting on the stories and cultural moments happening across America and in our communities.</p>
+					<div class="social-icons-footer">
+						<i class="fab fa-facebook"></i>
+						<i class="fab fa-twitter-square"></i>
+						<i class="fab fa-google-plus-square"></i>
+						<i class="fab fa-instagram"></i>
+						<i class="fas fa-rss-square"></i>
+						<i class="fab fa-youtube-square"></i>
+						<i class="fas fa-rss-square"></i>
+						<i class="fab fa-pinterest-square"></i>
+						<i class="fab fa-linkedin"></i>
+					</div>
+                </section>
+                <section class="instagram">
+                    <h2>Instagram</h2>
+					<img src="images/aside2.jpg">
+					<img src="images/aside3.jpg">
+					<img src="images/aside4.jpg">
+					<img src="images/aside5.jpg">
+					<img src="images/aside2.jpg">
+					<img src="images/aside3.jpg">
+					<img src="images/aside4.jpg">
+					<img src="images/aside5.jpg">
+					<img src="images/aside2.jpg">
+					<button type="button" class="footer-buttons">View on Instagram</button>
+                </section>
+                <section class="subscribe">
+                    <h2>Subscribe to News Today</h2>
+					<p>Enter your email address to subscribe to this blog and receive notifications of new posts by email</p>
+					<input type="email" placeholder="Email Address">
+					<button type="button" class="footer-buttons">Subscribe</button>
+
+                </section>
+            </div>
+            <div class="copyright">Copyright © 2019 The Daily News. Designed by RAHAT KABIR</div>
+
+
+    </main>
+    
+
+
+
+
+
+
+
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

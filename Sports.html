@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE DAILY NEWS</title>
+    <link rel="stylesheet" href="sports.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="website-header">
+            <img src="images/logo.png" alt="">
+            <h1>THE DAILY NEWS</h1></div>
+            <div class="navigationbar">
+            <nav class="navbar">
+                <div class="container-fluid">
+                  <ul class="nav-left">
+                    <li class="active"><a href="Home.html">Home</a></li>
+                    <li><a href="World.html">World</a></li>
+                    <li><a href="Sports.html">Sports</a></li>
+                    <li><a href="Entertainment.html">Entertainment</a></li>
+
+
+                    
+                    <li><a href="#">Business</a></li>
+                   
+                    <li><a href="#">Tech</a></li>
+                    
+                    <li><a href="#">Lifestyle</a></li>
+                  </ul>
+                  <ul class="nav-right">
+                    <li><a href="Signupform.html"><span class="Signup"></span> Sign Up</a></li>
+                    <li><a href="Login.html"><span class="login"></span> Login</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <div class="breaking-news-section">
+                  <span id=btext>Breaking News</span>
+                  <marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+                    <a href="" class="breaking-news">
+                        <p class= "bntime">10 june,2021</p>
+                        Hundreds of protestors gather in Dublin demanding expansion of a repair scheme for crumbling houses
+                    </a>
+                    <a href="" class="breaking-news">
+                      <p class= "bntime">10 june,2021</p>
+                      Refugee in the Netherlands goes on trial for war crimes over killing carried out during Syrian conflict
+                  </a>
+                  <a href="" class="breaking-news">
+                      <p class= "bntime">10 june,2021</p>
+                      Irish scientists identify how and why some Covid patients develop life-threatening blood clots
+                  </a>
+                </marquee>
+              </div>
+            </div>
+    </header>
+    <main>
+        <article id=popular-news>
+            <div id="featured">
+                <h2>FEATURED</h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="Sports/featured1.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Brazil winning run ends</h5>
+                            <p>28 June, 2021</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="Sports/featured2.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>British and Irish Lions 2021: Rassie Erasmus says there is 'no threat' to Tests</h5>
+                            <p>28 June, 2021</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="Sports/featured3.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Tour de France 2021: Mathieu van der Poel wins stage two to take yellow jersey</h5>
+                            <p>28 June, 2021</p>
+                          </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only"></span>
+                    </a>
+                  </div>
+            </div>
+            <div id="latest">
+                <h2>LATEST</h2>
+                <section class="news">
+                    <div class="news-container">
+                        <img src="Sports/latest1.jpg" alt="">
+                        <p class="popular-news-text">Hazard rocket fires Belgium past Portugal</p>
+                    </div>
+                </section>
+                <section class="news">
+                    <div class="news-container">
+                        <img src="Sports/latest2.jpg" alt="">
+                        <p class="popular-news-text">Czechs KO the Netherlands</p>
+                    </div> </section>   
+            </div> 
+            <div id="ourpicks">
+                <h2>OUR PICKS</h2>
+                <section class="news">
+                    <div class="news-container">
+                        <img src="Sports/ourpicks1.jpg" alt="">
+                        <p class="popular-news-text">Bale rules out retirement with World Cup in mind</p>
+                    </div>
+                </section>
+                <section class="news">
+                    <div class="news-container">
+                        <img src="Sports/ourpicks2.jpg" alt="">
+                        <p class="popular-news-text">Siddikur going to USA for Korn Ferry Tour</p>
+                    </div>
+                </section>   
+            </div>
+        </article>
+        <section class="more-news">
+            <div class="news-section">
+                <article class="world">
+                    <h2>Cricket
+                    </h2>
+                    <img src="Sports/cricket.jpg" alt="">
+                    <h3>The Mahmudullah question</h3>
+                    <p>On Saturday, Mahmudullah Riyad's inclusion into the Test side for the upcoming Zimbabwe tour was widely seen as a "surprise inclusion".
+
+                        It perhaps was a surprise because it had become widely accepted that Mahmudullah was not cut out for Tests. There were even suggestions that he may not have been as interested in playing Tests as he was to play limited-overs cricket, though the cricketer himself has said that he wants to play cricket's oldest format.  </p>
+                </article>
+                <article class="sport">
+                    <h2>Tennis</h2>
+                    <img src="Sports/tennis.jpg" alt="">
+                    <h3>Wimbledon 2021: Andy Murray plays, Novak Djokovic defends title, Simona Halep out</h3>
+                    <p>Two-time champion Andy Murray makes a welcome comeback in the Wimbledon singles as one of the sporting highlights of the British summer returns on Monday.
+
+                        The former world number one has not competed in singles at SW19 since 2017 after a series of injuries and the postponement of last year's event because of the coronavirus pandemic.
+                        
+                        Serbia's Novak Djokovic is the favourite to retain his Wimbledon crown and win a record-equalling 20th Grand Slam men's singles title.</p>
+
+
+                </article>
+            </div>
+            <aside>
+                <h4>RECENT</h4>
+                <div class="recent-news">
+                    <img src="images/article1.jpg">
+                    <p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+                </div>
+                <div class="recent-news">
+                    <img src="images/aside2.jpg">
+                    <p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+                </div>
+                <div class="recent-news">
+                    <img src="images/aside3.jpg">
+                    <p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+                </div>
+                <div class="recent-news">
+                    <img src="images/aside4.jpg">
+                    <p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+                </div>
+                <div class="recent-news">
+                    <img src="images/aside5.jpg">
+                    <p>2018 Mercedes-AMG C63 Coupe Makes its Debut</p>
+                </div>
+            
+
+            </aside>
+        </section>
+        <footer>
+            <div class="social-links">
+                <section class="about">
+                    <h2>About</h2>
+					<p>THE DAILY NEWS is the largest local-to-national digital media organization in the country.THE DAILY NEWS is our national flagship brand, sits at the center of the NETWORK, surrounded by hundreds of local media properties reporting on the stories and cultural moments happening across America and in our communities.</p>
+					<div class="social-icons-footer">
+						<i class="fab fa-facebook"></i>
+						<i class="fab fa-twitter-square"></i>
+						<i class="fab fa-google-plus-square"></i>
+						<i class="fab fa-instagram"></i>
+						<i class="fas fa-rss-square"></i>
+						<i class="fab fa-youtube-square"></i>
+						<i class="fas fa-rss-square"></i>
+						<i class="fab fa-pinterest-square"></i>
+						<i class="fab fa-linkedin"></i>
+					</div>
+                </section>
+                <section class="instagram">
+                    <h2>Instagram</h2>
+					<img src="images/aside2.jpg">
+					<img src="images/aside3.jpg">
+					<img src="images/aside4.jpg">
+					<img src="images/aside5.jpg">
+					<img src="images/aside2.jpg">
+					<img src="images/aside3.jpg">
+					<img src="images/aside4.jpg">
+					<img src="images/aside5.jpg">
+					<img src="images/aside2.jpg">
+					<button type="button" class="footer-buttons">View on Instagram</button>
+                </section>
+                <section class="subscribe">
+                    <h2>Subscribe to News Today</h2>
+					<p>Enter your email address to subscribe to this blog and receive notifications of new posts by email</p>
+					<input type="email" placeholder="Email Address">
+					<button type="button" class="footer-buttons">Subscribe</button>
+
+                </section>
+            </div>
+            <div class="copyright">Copyright © 2019 The Daily News. Designed by RAHAT KABIR</div>
+        </footer>
+
+
+    </main>
+    
+
+
+
+
+
+
+
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

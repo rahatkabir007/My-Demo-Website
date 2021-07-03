@@ -1,0 +1,287 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white;
+}
+.website-header{
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.website-header h1{
+    padding-bottom: 3px;
+}
+.website-header img{
+    width: 40px;
+    height: 50px;
+    margin: 0 30px;
+    padding-bottom: 5px;
+
+}
+.website-header h1{
+    margin: auto 0;
+}
+.navigationbar .navbar {
+    background-color: black;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.navigationbar .navbar .container-fluid li a{
+    font-size: 15px;
+    font-weight: 600;
+}
+.navigationbar .navbar .container-fluid .nav-left{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navigationbar .navbar .container-fluid .nav-left li{
+    justify-content: space-between;
+    padding: 7px;
+    list-style-type: none;
+}
+.navigationbar .navbar .container-fluid .nav-left li a{
+    text-decoration: none;
+    color: white;
+}
+.navigationbar .navbar .container-fluid .nav-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navigationbar .navbar .container-fluid .nav-right li{
+    justify-content: space-between;
+    padding: 5px;
+    list-style-type: none;
+}
+.navigationbar .navbar .container-fluid .nav-right li a{
+    text-decoration: none;
+    color: white;
+}
+.navigationbar .navbar .container-fluid li a:hover{
+    color: brown;
+}
+.breaking-news-section{
+    padding: 0 30px 50px 50px;
+    display: flex;
+    height: 10px;
+}
+#btext{
+    width: 200px; 
+    font-size: 16px;
+    text-transform: uppercase;
+    color: brown;
+    font-weight: 300;
+
+}
+.breaking-news{
+    padding: 0 30px;
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+}
+.breaking-news:hover{
+    color: brown;
+    cursor: pointer;
+}
+.bntime{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 10px;
+    font-size: 12px;
+}
+#popular-news{
+    display: flex;
+    margin: 30px 5%;
+}
+#popular-news img{
+    width: 100%;
+    filter: brightness(0.7);
+}
+#popular-news h2{
+    margin: 0;
+    padding: 5px;
+    color: white;
+}
+#featured h2{
+    background-color: black;
+}
+#latest h2{
+    background-color: darkred;
+}
+#ourpicks h2{
+    background-color: darkblue;
+}
+.carousel, .news-container{
+    position: relative;
+}
+.popular-news-text{
+    font-size: 14px;
+    position: absolute;
+    color: white;
+    z-index: 2;
+    bottom: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 0 10px;
+    transition-duration: 500ms;
+}
+#featured{
+    flex: 2;
+}
+#latest, #ourpicks{
+    flex: 1;
+}
+.news-container:hover {
+    cursor: pointer;
+}
+.news-container:hover > .popular-news-text{
+    bottom: 10px;
+}
+.more-news{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    color: white;
+    padding: 0 5%;
+    text-align: justify;
+}
+.more-news img{
+    width: 100%;
+}
+.news-section{
+    display: flex;
+    flex-basis: 70%;
+    justify-content: space-between;
+}
+aside{
+    flex-basis: 25%;
+    padding: 10px;
+    border: 1px solid white;
+    margin: auto 0;
+    border-radius: 5px;
+}
+.world, .sport{
+    flex-basis: 45%;
+}
+.world h2{
+    background-color: #b2175b;
+    padding: 0 10px;
+    margin: 10px 0 0 0;
+}
+.sport h2{
+    background-color: #3c1b75;
+    padding: 0 10px;
+    margin: 10px 0 0 0;
+}
+.recent-news{
+    display: flex;
+
+}
+.recent-news img{
+    width: 70px;
+    height: 70px;
+    margin: 10px;;
+}
+.recent-news p{
+    font-size: 14px;
+    font-weight: bold;
+    margin: auto;
+}
+.social-links{
+    display:flex;
+    padding: 5%;
+    justify-content: space-between;
+   
+}
+.social-links section{
+    flex-basis: 30%;
+}
+.social-icons-footer i{
+    font-size: 37px;
+    padding: 5px;
+}
+.instagram img{
+    padding: 5px;
+}
+.footer-buttons{
+    display: block;
+    border: 1px solid #2196f3;
+    color: #2196f3;
+    font-size: 14px;
+    font-weight: bolder;
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.footer-buttons:hover{
+    color: white;
+    background-color: #2196f3;
+}
+.copyright{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+	.breaking-news-section{	
+		padding: 10px;
+		flex-wrap: wrap;
+	}
+	#featured{
+		flex: auto;
+	}
+  .popular-news-text{
+      font-size: 5px;
+      flex: auto;
+  }
+	.news-section, aside, .news-section article,.social-links section{
+		flex-basis: 100%;
+        	
+	}
+    .world{
+        margin: 5px;
+        text-align: left;
+    }
+	aside{
+		border-width: 0;
+	}
+	.social-links section{
+		margin-top: 20px;
+	}
+	.website-header img{
+		width: 35px;
+		height: 35px;
+		padding: 5px;
+	}
+	.website-header h1{
+		font-size: 15px;
+	}
+	.social-icons{
+		flex-basis: 100%;
+	}
+	.navigationbar{
+        padding-bottom: 60px;
+    
+    }
+    .breaking-news-section{
+        padding-top: 80px;
+    }
+    #btext{
+        padding-left: 30px;
+    }
+    
+}
+
+
+
+
+
+
+
+
